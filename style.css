@@ -140,25 +140,59 @@ nav {
 
 /* main  */
 main {
-  padding: 30px 70px 0px 70px;
+  padding: 30px 30px 0px 70px;
+}
+
+.post-1 {
+  width: 42vw;
 }
 
 .figcaption {
   font-family: 'Roboto', sans-serif; 
-  font-weight: 100;
+  font-weight: 400;
   font-size: .7em;
+  opacity: .8;
 }
 
 .h2 {
   font-family: 'Roboto', sans-serif; 
-  font-weight: 700;
-  font-size: .9em;
-  margin-top: 10px;
+  font-weight: 900;
+  font-size: .8em;
+  margin-top: 7px;
 }
 
 .text-post {
-  margin-top: 12px;
+  margin-top: 8px;
   font-size: .7em;
-  width: 320px;
 }
 
+.top-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-post {
+  display: flex;
+  flex-direction: column;
+  width: 37vw;
+}
+
+.side {
+  margin-top: 20px;
+}
+
+/* bottom posts  */
+
+.posts {
+  display: flex;
+  gap: 10px;
+  margin: 20px 30px 0px 0px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.post {
+  height: 220px;
+  width: 100%;
+  border: 1px solid red;
+}
