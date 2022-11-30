@@ -194,3 +194,6 @@ main {
   height: 25vh;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+}
