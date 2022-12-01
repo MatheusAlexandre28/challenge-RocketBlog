@@ -239,8 +239,28 @@ main {
   }
 }
 
-@media (max-width: 425px) {
-  header {
-    width: 100vw;
+@media (max-width: 631px) {
+  .post {
+    height: 25vh;
+  }
+
+  .img-left {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-post {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .posts {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    padding: 0px 130px 0px 130px;
+    height: 100vh;
   }
 }
