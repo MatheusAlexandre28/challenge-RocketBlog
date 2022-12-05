@@ -295,11 +295,7 @@ main {
 
 @media (max-width: 580px) {
   .featured-image {
-    width: auto;
-  }
-
-  header {
-    display: flex;
-    flex-direction: column;
+    opacity: 0;
+    position: absolute;
   }
 }
