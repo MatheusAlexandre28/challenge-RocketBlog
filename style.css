@@ -187,7 +187,7 @@ main {
 
 /* bottom posts  */
 
-.posts {
+.bot-posts {
   display: flex;
   gap: 18px;
   margin: 20px 30px 0px 0px;
@@ -249,18 +249,57 @@ main {
   }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 950px) {
+  .post-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+
+  .side-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-top: 10px;
+  }
+
   .top-post {
     flex-direction: column;
     align-items: center;
   }
 
-  .posts {
+  .bot-posts {
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    width: 80vw;
-    padding: 0px 130px 0px 130px;
-    height: 100vh;
+  }
+
+  .post {
+    width: 60%;
+  }
+}
+
+@media (max-width: 730px) {
+  .link {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .links {
+    width: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .featured-image {
+    width: auto;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
   }
 }
